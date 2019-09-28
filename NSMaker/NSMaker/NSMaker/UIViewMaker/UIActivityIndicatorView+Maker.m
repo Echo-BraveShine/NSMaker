@@ -13,7 +13,7 @@
 -(UIActivityIndicatorViewMaker * _Nonnull (^)(UIActivityIndicatorViewStyle))activityIndicatorViewStyle
 {
     return ^(UIActivityIndicatorViewStyle x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }
@@ -21,7 +21,7 @@
 - (UIActivityIndicatorViewMaker * _Nonnull (^)(BOOL))hidesWhenStopped
 {
     return ^(BOOL x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }
@@ -29,7 +29,7 @@
 -(UIActivityIndicatorViewMaker * _Nonnull (^)(UIColor * _Nonnull))color
 {
     return ^(UIColor *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }

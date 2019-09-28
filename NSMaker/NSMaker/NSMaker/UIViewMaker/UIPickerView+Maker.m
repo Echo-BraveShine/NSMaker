@@ -13,7 +13,7 @@
 -(UIPickerViewMaker * _Nonnull (^)(id<UIPickerViewDataSource> _Nonnull))dataSource
 {
     return ^(id<UIPickerViewDataSource> x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
@@ -21,14 +21,14 @@
 - (UIPickerViewMaker * _Nonnull (^)(id<UIPickerViewDelegate> _Nonnull))delegate
 {
     return ^(id<UIPickerViewDelegate> x){
-           [self setViewValue:x forKey:funcName];
+           [self setObjectValue:x forKey:funcName];
            return self;
        };
 }
 
 - (UIPickerViewMaker * _Nonnull (^)(BOOL))showsSelectionIndicator{
     return ^(BOOL x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }

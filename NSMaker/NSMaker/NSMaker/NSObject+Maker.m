@@ -10,26 +10,17 @@
 
 @implementation NSMaker
 
-- (void)setViewValue:(id)value forKey:(NSString *)key
+- (void)setObjectValue:(id)value forKey:(NSString *)key
 {
     [self.object setValue:value forKey:key];
 }
 
 @end
 
-static const char *NSMakerKey = "NSMakerKey";
 
 @implementation NSObject (Maker)
 
--(void)setMaker:(NSMaker *)maker
-{
-    objc_setAssociatedObject(self, NSMakerKey, maker, OBJC_ASSOCIATION_ASSIGN);
-}
 
--(NSMaker *)maker
-{
-    return objc_getAssociatedObject(self, NSMakerKey);
-}
 
 NSMakerImplementation(NSMaker)
 

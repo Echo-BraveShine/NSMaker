@@ -13,7 +13,7 @@
 - (UICollectionViewCellMaker * (^)(BOOL))selected
 {
     return ^(BOOL x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }
@@ -21,7 +21,7 @@
 - (UICollectionViewCellMaker * (^)(BOOL))highlighted
 {
     return ^(BOOL x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }
@@ -29,7 +29,7 @@
 - (UICollectionViewCellMaker * (^)(UIView *))backgroundView
 {
     return ^(UIView *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
@@ -37,7 +37,7 @@
 - (UICollectionViewCellMaker * (^)(UIView *))selectedBackgroundView
 {
     return ^(UIView *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }

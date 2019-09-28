@@ -21,13 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) id object;
 
-- (void)setViewValue:(id)value forKey:(NSString *)key;
+- (void)setObjectValue:(id)value forKey:(NSString *)key;
 
 @end
 
 #define NSMakerInterface(Maker) \
-\
-@property (nonatomic,strong) Maker *maker;\
 \
 + (Maker *)make;\
 \
@@ -40,7 +38,6 @@ NS_ASSUME_NONNULL_BEGIN
 {\
     Maker *maker = [Maker new];\
     NSObject *ins = [[self alloc]init];\
-    ins.maker = maker;\
     maker.object = ins;\
     return maker;\
 }\
@@ -49,8 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 {\
     Maker * maker = [Maker new];\
     maker.object = self;\
-    self.maker = maker;\
-    return (Maker *)self.maker;\
+    return maker;\
 }
 
 @interface NSObject (Maker)

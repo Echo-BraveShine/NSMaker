@@ -13,7 +13,7 @@
 -(UIProgressViewMaker * _Nonnull (^)(UIProgressViewStyle))progressViewStyle
 {
     return ^(UIProgressViewStyle x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }
@@ -21,7 +21,7 @@
 - (UIProgressViewMaker * _Nonnull (^)(float))progress
 {
     return ^(float x){
-        [self setViewValue:@(x) forKey:funcName];
+        [self setObjectValue:@(x) forKey:funcName];
         return self;
     };
 }
@@ -29,7 +29,7 @@
 -(UIProgressViewMaker * _Nonnull (^)(UIColor * _Nonnull))progressTintColor
 {
     return ^(UIColor *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
@@ -37,7 +37,7 @@
 - (UIProgressViewMaker * _Nonnull (^)(UIColor * _Nonnull))trackTintColor
 {
    return ^(UIColor *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
@@ -45,7 +45,7 @@
 - (UIProgressViewMaker * _Nonnull (^)(UIImage * _Nonnull))progressImage
 {
     return ^(UIImage *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
@@ -53,7 +53,7 @@
 -(UIProgressViewMaker * _Nonnull (^)(UIImage * _Nonnull))trackImage
 {
     return ^(UIImage *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
@@ -61,7 +61,7 @@
 -(UIProgressViewMaker * _Nonnull (^)(NSProgress * _Nonnull))observedProgress
 {
     return ^(NSProgress *x){
-        [self setViewValue:x forKey:funcName];
+        [self setObjectValue:x forKey:funcName];
         return self;
     };
 }
