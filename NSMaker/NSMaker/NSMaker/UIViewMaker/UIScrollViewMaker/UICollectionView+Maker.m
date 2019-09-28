@@ -18,6 +18,13 @@
     };
 }
 
+- (UICollectionViewMaker * (^)(id <UICollectionViewDelegate>))collectionViewDelegate
+{
+    return ^(id<UICollectionViewDelegate> x){
+        [self setViewValue:x forKey:@"delegate"];
+        return self;
+    };
+}
 
 - (UICollectionViewMaker * (^)(id <UICollectionViewDataSource>))dataSource
 {

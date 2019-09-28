@@ -10,6 +10,14 @@
 
 @implementation UITextViewMaker
 
+- (UITextViewMaker * (^)(id <UITextViewDelegate>))textViewDelegate;
+{
+    return ^(id<UITextViewDelegate> x){
+        [self setViewValue:x forKey:@"delegate"];
+        return self;
+    };
+}
+
 - (UITextViewMaker * (^)(NSString *))text
 {
     return ^(NSString *x){

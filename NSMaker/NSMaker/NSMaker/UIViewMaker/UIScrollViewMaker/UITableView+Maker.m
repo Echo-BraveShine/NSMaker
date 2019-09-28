@@ -18,7 +18,13 @@
     };
 }
 
-
+- (UITableViewMaker * (^)(id <UITableViewDelegate>))tableViewDelegate;
+{
+    return ^(id<UITableViewDelegate> x){
+        [self setViewValue:x forKey:@"delegate"];
+        return self;
+    };
+}
 - (UITableViewMaker * (^)(id <UITableViewDataSourcePrefetching>))prefetchDataSource
 {
     return ^(id<UITableViewDataSourcePrefetching> x){
