@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1EF521233F952300AF50C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF520233F952300AF50C1 /* AppDelegate.m */; };
+		5F1EF524233F952300AF50C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF523233F952300AF50C1 /* SceneDelegate.m */; };
+		5F1EF527233F952300AF50C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF526233F952300AF50C1 /* ViewController.m */; };
+		5F1EF52A233F952300AF50C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1EF528233F952300AF50C1 /* Main.storyboard */; };
+		5F1EF52C233F952400AF50C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1EF52B233F952400AF50C1 /* Assets.xcassets */; };
+		5F1EF52F233F952400AF50C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1EF52D233F952400AF50C1 /* LaunchScreen.storyboard */; };
+		5F1EF532233F952400AF50C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF531233F952400AF50C1 /* main.m */; };
+		5F1EF55B233F955F00AF50C1 /* UICollectionViewCell+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF53B233F955F00AF50C1 /* UICollectionViewCell+Maker.m */; };
+		5F1EF55C233F955F00AF50C1 /* UIImageView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF53C233F955F00AF50C1 /* UIImageView+Maker.m */; };
+		5F1EF55D233F955F00AF50C1 /* UITableView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF53D233F955F00AF50C1 /* UITableView+Maker.m */; };
+		5F1EF55E233F955F00AF50C1 /* UIScrollView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF53E233F955F00AF50C1 /* UIScrollView+Maker.m */; };
+		5F1EF55F233F955F00AF50C1 /* UIView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF542233F955F00AF50C1 /* UIView+Maker.m */; };
+		5F1EF560233F955F00AF50C1 /* UINavigationBar+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF543233F955F00AF50C1 /* UINavigationBar+Maker.m */; };
+		5F1EF561233F955F00AF50C1 /* UIWindow+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF545233F955F00AF50C1 /* UIWindow+Maker.m */; };
+		5F1EF562233F955F00AF50C1 /* UILabel+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF549233F955F00AF50C1 /* UILabel+Maker.m */; };
+		5F1EF563233F955F00AF50C1 /* UIToolbar+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF54A233F955F00AF50C1 /* UIToolbar+Maker.m */; };
+		5F1EF564233F955F00AF50C1 /* UITabBar+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF54B233F955F00AF50C1 /* UITabBar+Maker.m */; };
+		5F1EF565233F955F00AF50C1 /* UITableViewCell+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF54C233F955F00AF50C1 /* UITableViewCell+Maker.m */; };
+		5F1EF566233F955F00AF50C1 /* UIPickerView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF553233F955F00AF50C1 /* UIPickerView+Maker.m */; };
+		5F1EF567233F955F00AF50C1 /* UIProgressView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF554233F955F00AF50C1 /* UIProgressView+Maker.m */; };
+		5F1EF568233F955F00AF50C1 /* UIActivityIndicatorView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF555233F955F00AF50C1 /* UIActivityIndicatorView+Maker.m */; };
+		5F1EF569233F955F00AF50C1 /* UICollectionView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF556233F955F00AF50C1 /* UICollectionView+Maker.m */; };
+		5F1EF56A233F955F00AF50C1 /* UICollectionReusableView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF557233F955F00AF50C1 /* UICollectionReusableView+Maker.m */; };
+		5F1EF570233F973600AF50C1 /* UITextView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF56F233F973600AF50C1 /* UITextView+Maker.m */; };
+		5F1EF573233F9EC800AF50C1 /* NSObject+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF572233F9EC800AF50C1 /* NSObject+Maker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F1EF51C233F952300AF50C1 /* NSMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1EF51F233F952300AF50C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F1EF520233F952300AF50C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F1EF522233F952300AF50C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5F1EF523233F952300AF50C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5F1EF525233F952300AF50C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F1EF526233F952300AF50C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F1EF529233F952300AF50C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F1EF52B233F952400AF50C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1EF52E233F952400AF50C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F1EF530233F952400AF50C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1EF531233F952400AF50C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F1EF53B233F955F00AF50C1 /* UICollectionViewCell+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+Maker.m"; sourceTree = "<group>"; };
+		5F1EF53C233F955F00AF50C1 /* UIImageView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF53D233F955F00AF50C1 /* UITableView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF53E233F955F00AF50C1 /* UIScrollView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF53F233F955F00AF50C1 /* UITableViewCell+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Maker.h"; sourceTree = "<group>"; };
+		5F1EF540233F955F00AF50C1 /* UITabBar+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Maker.h"; sourceTree = "<group>"; };
+		5F1EF541233F955F00AF50C1 /* UIPickerView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF542233F955F00AF50C1 /* UIView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF543233F955F00AF50C1 /* UINavigationBar+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Maker.m"; sourceTree = "<group>"; };
+		5F1EF544233F955F00AF50C1 /* UICollectionReusableView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionReusableView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF545233F955F00AF50C1 /* UIWindow+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Maker.m"; sourceTree = "<group>"; };
+		5F1EF546233F955F00AF50C1 /* UICollectionView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF547233F955F00AF50C1 /* UIProgressView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF548233F955F00AF50C1 /* UIActivityIndicatorView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF549233F955F00AF50C1 /* UILabel+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Maker.m"; sourceTree = "<group>"; };
+		5F1EF54A233F955F00AF50C1 /* UIToolbar+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Maker.m"; sourceTree = "<group>"; };
+		5F1EF54B233F955F00AF50C1 /* UITabBar+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Maker.m"; sourceTree = "<group>"; };
+		5F1EF54C233F955F00AF50C1 /* UITableViewCell+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Maker.m"; sourceTree = "<group>"; };
+		5F1EF54D233F955F00AF50C1 /* UIScrollView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF54E233F955F00AF50C1 /* UITableView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF54F233F955F00AF50C1 /* UIImageView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF550233F955F00AF50C1 /* UICollectionViewCell+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+Maker.h"; sourceTree = "<group>"; };
+		5F1EF551233F955F00AF50C1 /* UINavigationBar+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Maker.h"; sourceTree = "<group>"; };
+		5F1EF552233F955F00AF50C1 /* UIView+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF553233F955F00AF50C1 /* UIPickerView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF554233F955F00AF50C1 /* UIProgressView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF555233F955F00AF50C1 /* UIActivityIndicatorView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF556233F955F00AF50C1 /* UICollectionView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF557233F955F00AF50C1 /* UICollectionReusableView+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionReusableView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF558233F955F00AF50C1 /* UIWindow+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Maker.h"; sourceTree = "<group>"; };
+		5F1EF559233F955F00AF50C1 /* UIToolbar+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Maker.h"; sourceTree = "<group>"; };
+		5F1EF55A233F955F00AF50C1 /* UILabel+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Maker.h"; sourceTree = "<group>"; };
+		5F1EF56E233F973600AF50C1 /* UITextView+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Maker.h"; sourceTree = "<group>"; };
+		5F1EF56F233F973600AF50C1 /* UITextView+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Maker.m"; sourceTree = "<group>"; };
+		5F1EF571233F9EC800AF50C1 /* NSObject+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Maker.h"; sourceTree = "<group>"; };
+		5F1EF572233F9EC800AF50C1 /* NSObject+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Maker.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1EF519233F952300AF50C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1EF513233F952200AF50C1 = {
+			isa = PBXGroup;
+			children = (
+				5F1EF51E233F952300AF50C1 /* NSMaker */,
+				5F1EF51D233F952300AF50C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1EF51D233F952300AF50C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F1EF51C233F952300AF50C1 /* NSMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1EF51E233F952300AF50C1 /* NSMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5F1EF56D233F96CD00AF50C1 /* NSMaker */,
+				5F1EF51F233F952300AF50C1 /* AppDelegate.h */,
+				5F1EF520233F952300AF50C1 /* AppDelegate.m */,
+				5F1EF522233F952300AF50C1 /* SceneDelegate.h */,
+				5F1EF523233F952300AF50C1 /* SceneDelegate.m */,
+				5F1EF525233F952300AF50C1 /* ViewController.h */,
+				5F1EF526233F952300AF50C1 /* ViewController.m */,
+				5F1EF528233F952300AF50C1 /* Main.storyboard */,
+				5F1EF52B233F952400AF50C1 /* Assets.xcassets */,
+				5F1EF52D233F952400AF50C1 /* LaunchScreen.storyboard */,
+				5F1EF530233F952400AF50C1 /* Info.plist */,
+				5F1EF531233F952400AF50C1 /* main.m */,
+			);
+			path = NSMaker;
+			sourceTree = "<group>";
+		};
+		5F1EF53A233F955F00AF50C1 /* UIViewMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5F1EF56B233F95CF00AF50C1 /* UIScrollViewMaker */,
+				5F1EF540233F955F00AF50C1 /* UITabBar+Maker.h */,
+				5F1EF54B233F955F00AF50C1 /* UITabBar+Maker.m */,
+				5F1EF54F233F955F00AF50C1 /* UIImageView+Maker.h */,
+				5F1EF53C233F955F00AF50C1 /* UIImageView+Maker.m */,
+				5F1EF551233F955F00AF50C1 /* UINavigationBar+Maker.h */,
+				5F1EF543233F955F00AF50C1 /* UINavigationBar+Maker.m */,
+				5F1EF552233F955F00AF50C1 /* UIView+Maker.h */,
+				5F1EF542233F955F00AF50C1 /* UIView+Maker.m */,
+				5F1EF541233F955F00AF50C1 /* UIPickerView+Maker.h */,
+				5F1EF553233F955F00AF50C1 /* UIPickerView+Maker.m */,
+				5F1EF547233F955F00AF50C1 /* UIProgressView+Maker.h */,
+				5F1EF554233F955F00AF50C1 /* UIProgressView+Maker.m */,
+				5F1EF548233F955F00AF50C1 /* UIActivityIndicatorView+Maker.h */,
+				5F1EF555233F955F00AF50C1 /* UIActivityIndicatorView+Maker.m */,
+				5F1EF558233F955F00AF50C1 /* UIWindow+Maker.h */,
+				5F1EF545233F955F00AF50C1 /* UIWindow+Maker.m */,
+				5F1EF559233F955F00AF50C1 /* UIToolbar+Maker.h */,
+				5F1EF54A233F955F00AF50C1 /* UIToolbar+Maker.m */,
+				5F1EF55A233F955F00AF50C1 /* UILabel+Maker.h */,
+				5F1EF549233F955F00AF50C1 /* UILabel+Maker.m */,
+			);
+			path = UIViewMaker;
+			sourceTree = "<group>";
+		};
+		5F1EF56B233F95CF00AF50C1 /* UIScrollViewMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5F1EF56C233F961E00AF50C1 /* UICellMaker */,
+				5F1EF54D233F955F00AF50C1 /* UIScrollView+Maker.h */,
+				5F1EF53E233F955F00AF50C1 /* UIScrollView+Maker.m */,
+				5F1EF54E233F955F00AF50C1 /* UITableView+Maker.h */,
+				5F1EF53D233F955F00AF50C1 /* UITableView+Maker.m */,
+				5F1EF546233F955F00AF50C1 /* UICollectionView+Maker.h */,
+				5F1EF556233F955F00AF50C1 /* UICollectionView+Maker.m */,
+				5F1EF56E233F973600AF50C1 /* UITextView+Maker.h */,
+				5F1EF56F233F973600AF50C1 /* UITextView+Maker.m */,
+			);
+			path = UIScrollViewMaker;
+			sourceTree = "<group>";
+		};
+		5F1EF56C233F961E00AF50C1 /* UICellMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5F1EF53F233F955F00AF50C1 /* UITableViewCell+Maker.h */,
+				5F1EF54C233F955F00AF50C1 /* UITableViewCell+Maker.m */,
+				5F1EF550233F955F00AF50C1 /* UICollectionViewCell+Maker.h */,
+				5F1EF53B233F955F00AF50C1 /* UICollectionViewCell+Maker.m */,
+				5F1EF544233F955F00AF50C1 /* UICollectionReusableView+Maker.h */,
+				5F1EF557233F955F00AF50C1 /* UICollectionReusableView+Maker.m */,
+			);
+			path = UICellMaker;
+			sourceTree = "<group>";
+		};
+		5F1EF56D233F96CD00AF50C1 /* NSMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5F1EF571233F9EC800AF50C1 /* NSObject+Maker.h */,
+				5F1EF572233F9EC800AF50C1 /* NSObject+Maker.m */,
+				5F1EF53A233F955F00AF50C1 /* UIViewMaker */,
+			);
+			path = NSMaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F1EF51B233F952300AF50C1 /* NSMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1EF535233F952400AF50C1 /* Build configuration list for PBXNativeTarget "NSMaker" */;
+			buildPhases = (
+				5F1EF518233F952300AF50C1 /* Sources */,
+				5F1EF519233F952300AF50C1 /* Frameworks */,
+				5F1EF51A233F952300AF50C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSMaker;
+			productName = NSMaker;
+			productReference = 5F1EF51C233F952300AF50C1 /* NSMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1EF514233F952300AF50C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = BraveShine;
+				TargetAttributes = {
+					5F1EF51B233F952300AF50C1 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 5F1EF517233F952300AF50C1 /* Build configuration list for PBXProject "NSMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1EF513233F952200AF50C1;
+			productRefGroup = 5F1EF51D233F952300AF50C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1EF51B233F952300AF50C1 /* NSMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1EF51A233F952300AF50C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1EF52F233F952400AF50C1 /* LaunchScreen.storyboard in Resources */,
+				5F1EF52C233F952400AF50C1 /* Assets.xcassets in Resources */,
+				5F1EF52A233F952300AF50C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1EF518233F952300AF50C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1EF568233F955F00AF50C1 /* UIActivityIndicatorView+Maker.m in Sources */,
+				5F1EF563233F955F00AF50C1 /* UIToolbar+Maker.m in Sources */,
+				5F1EF566233F955F00AF50C1 /* UIPickerView+Maker.m in Sources */,
+				5F1EF527233F952300AF50C1 /* ViewController.m in Sources */,
+				5F1EF564233F955F00AF50C1 /* UITabBar+Maker.m in Sources */,
+				5F1EF573233F9EC800AF50C1 /* NSObject+Maker.m in Sources */,
+				5F1EF569233F955F00AF50C1 /* UICollectionView+Maker.m in Sources */,
+				5F1EF570233F973600AF50C1 /* UITextView+Maker.m in Sources */,
+				5F1EF55D233F955F00AF50C1 /* UITableView+Maker.m in Sources */,
+				5F1EF561233F955F00AF50C1 /* UIWindow+Maker.m in Sources */,
+				5F1EF55E233F955F00AF50C1 /* UIScrollView+Maker.m in Sources */,
+				5F1EF521233F952300AF50C1 /* AppDelegate.m in Sources */,
+				5F1EF560233F955F00AF50C1 /* UINavigationBar+Maker.m in Sources */,
+				5F1EF532233F952400AF50C1 /* main.m in Sources */,
+				5F1EF56A233F955F00AF50C1 /* UICollectionReusableView+Maker.m in Sources */,
+				5F1EF562233F955F00AF50C1 /* UILabel+Maker.m in Sources */,
+				5F1EF55C233F955F00AF50C1 /* UIImageView+Maker.m in Sources */,
+				5F1EF55F233F955F00AF50C1 /* UIView+Maker.m in Sources */,
+				5F1EF55B233F955F00AF50C1 /* UICollectionViewCell+Maker.m in Sources */,
+				5F1EF524233F952300AF50C1 /* SceneDelegate.m in Sources */,
+				5F1EF565233F955F00AF50C1 /* UITableViewCell+Maker.m in Sources */,
+				5F1EF567233F955F00AF50C1 /* UIProgressView+Maker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F1EF528233F952300AF50C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1EF529233F952300AF50C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F1EF52D233F952400AF50C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1EF52E233F952400AF50C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F1EF533233F952400AF50C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F1EF534233F952400AF50C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F1EF536233F952400AF50C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BraveShine.NSMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1EF537233F952400AF50C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BraveShine.NSMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1EF517233F952300AF50C1 /* Build configuration list for PBXProject "NSMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1EF533233F952400AF50C1 /* Debug */,
+				5F1EF534233F952400AF50C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1EF535233F952400AF50C1 /* Build configuration list for PBXNativeTarget "NSMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1EF536233F952400AF50C1 /* Debug */,
+				5F1EF537233F952400AF50C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1EF514233F952300AF50C1 /* Project object */;
+}
