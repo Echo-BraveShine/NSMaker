@@ -2,8 +2,8 @@
 //  UIWindow+Maker.m
 //  MakerView
 //
-//  Created by BraveMaker on 2019/9/26.
-//  Copyright © 2019 BraveMaker. All rights reserved.
+//  Created by BraveShine on 2019/9/26.
+//  Copyright © 2019 BraveShine. All rights reserved.
 //
 
 #import "UIWindow+Maker.h"

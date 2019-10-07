@@ -2,15 +2,14 @@
 //  UIViewMaker+Maker.m
 //  MakerView
 //
-//  Created by BraveMaker on 2019/9/24.
-//  Copyright © 2019 BraveMaker. All rights reserved.
+//  Created by BraveShine on 2019/9/24.
+//  Copyright © 2019 BraveShine. All rights reserved.
 //
 
 #import "UIView+Maker.h"
 
 
 @implementation UIViewMaker
-
 
 
 - (UIViewMaker * (^)(BOOL))userInteractionEnabled{
@@ -23,7 +22,6 @@
 - (UIViewMaker * (^)(NSInteger))tag{
     return ^(NSInteger x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.tag = tag;
         return self;
     };
 }
@@ -31,7 +29,6 @@
 - (UIViewMaker * (^)(UISemanticContentAttribute))semanticContentAttribute{
     return ^(UISemanticContentAttribute x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.semanticContentAttribute = semanticContentAttribute;
         return self;
     };
 }
@@ -39,7 +36,6 @@
 - (UIViewMaker * (^)(CGRect))frame{
     return ^(CGRect x){
         [self setObjectValue:[NSValue valueWithCGRect:x] forKey:funcName];
-        //        self.view.frame = frame;
         return self;
     };
 }
@@ -47,7 +43,6 @@
 - (UIViewMaker * (^)(CGRect))bounds{
     return ^(CGRect x){
         [self setObjectValue:[NSValue valueWithCGRect:x] forKey:funcName];
-        //        self.view.bounds = bounds;
         return self;
     };
 }
@@ -55,7 +50,6 @@
 - (UIViewMaker * (^)(CGPoint))center{
     return ^(CGPoint x){
         [self setObjectValue:[NSValue valueWithCGPoint:x] forKey:funcName];
-        //        self.view.center = center;
         return self;
     };
 }
@@ -63,7 +57,6 @@
 - (UIViewMaker * (^)(CGAffineTransform))transform{
     return ^(CGAffineTransform x){
         [self setObjectValue:[NSValue valueWithCGAffineTransform:x] forKey:funcName];
-        //        self.view.transform = transform;
         return self;
     };
 }
@@ -71,7 +64,6 @@
 - (UIViewMaker * (^)(CATransform3D))transform3D{
     return ^(CATransform3D x){
         [self setObjectValue:[NSValue valueWithCATransform3D:x] forKey:funcName];
-        //        self.view.transform3D = transform3D;
         return self;
     };
 }
@@ -79,7 +71,6 @@
 - (UIViewMaker * (^)(CGFloat))contentScaleFactor{
     return ^(CGFloat x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.contentScaleFactor = contentScaleFactor;
         return self;
     };
 }
@@ -87,7 +78,6 @@
 - (UIViewMaker * (^)(BOOL))multipleTouchEnabled{
     return ^(BOOL x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.multipleTouchEnabled = multipleTouchEnabled;
         return self;
     };
 }
@@ -95,7 +85,6 @@
 - (UIViewMaker * (^)(BOOL))exclusiveTouch{
     return ^(BOOL x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.exclusiveTouch = exclusiveTouch;
         return self;
     };
 }
@@ -103,7 +92,6 @@
 - (UIViewMaker * (^)(BOOL))autoresizesSubviews{
     return ^(BOOL x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.autoresizesSubviews = autoresizesSubviews;
         return self;
     };
 }
@@ -111,7 +99,6 @@
 - (UIViewMaker * (^)(UIViewAutoresizing))autoresizingMask{
     return ^(UIViewAutoresizing x){
         [self setObjectValue:@(x) forKey:funcName];
-        //        self.view.autoresizingMask = autoresizingMask;
         return self;
     };
 }
@@ -126,7 +113,6 @@
 - (UIViewMaker * (^)(UIEdgeInsets))layoutMargins{
     return ^(UIEdgeInsets x){
         [self setObjectValue:[NSValue valueWithUIEdgeInsets:x] forKey:funcName];
-        //        self.view.layoutMargins = layoutMargins;
         return self;
     };
 }

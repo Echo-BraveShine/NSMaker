@@ -32,6 +32,15 @@
 		5F1EF56A233F955F00AF50C1 /* UICollectionReusableView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF557233F955F00AF50C1 /* UICollectionReusableView+Maker.m */; };
 		5F1EF570233F973600AF50C1 /* UITextView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF56F233F973600AF50C1 /* UITextView+Maker.m */; };
 		5F1EF573233F9EC800AF50C1 /* NSObject+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF572233F9EC800AF50C1 /* NSObject+Maker.m */; };
+		5FA28FC3234B5413006215D9 /* UIButton+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FC2234B5413006215D9 /* UIButton+Maker.m */; };
+		5FA28FC6234B57C5006215D9 /* UIControl+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FC5234B57C5006215D9 /* UIControl+Maker.m */; };
+		5FA28FC9234B6024006215D9 /* UITextField+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FC8234B6024006215D9 /* UITextField+Maker.m */; };
+		5FA28FCC234B6486006215D9 /* UISlider+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FCB234B6486006215D9 /* UISlider+Maker.m */; };
+		5FA28FCF234B6AF9006215D9 /* UISwitch+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FCE234B6AF9006215D9 /* UISwitch+Maker.m */; };
+		5FA28FD2234B6C7C006215D9 /* UISegmentedControl+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD1234B6C7C006215D9 /* UISegmentedControl+Maker.m */; };
+		5FA28FD5234B6E48006215D9 /* UIPageControl+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD4234B6E48006215D9 /* UIPageControl+Maker.m */; };
+		5FA28FD8234B6FE2006215D9 /* UIDatePicker+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */; };
+		5FA28FDC234B7379006215D9 /* WKWebView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +92,24 @@
 		5F1EF56F233F973600AF50C1 /* UITextView+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Maker.m"; sourceTree = "<group>"; };
 		5F1EF571233F9EC800AF50C1 /* NSObject+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Maker.h"; sourceTree = "<group>"; };
 		5F1EF572233F9EC800AF50C1 /* NSObject+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Maker.m"; sourceTree = "<group>"; };
+		5FA28FC1234B5413006215D9 /* UIButton+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Maker.h"; sourceTree = "<group>"; };
+		5FA28FC2234B5413006215D9 /* UIButton+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Maker.m"; sourceTree = "<group>"; };
+		5FA28FC4234B57C5006215D9 /* UIControl+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Maker.h"; sourceTree = "<group>"; };
+		5FA28FC5234B57C5006215D9 /* UIControl+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Maker.m"; sourceTree = "<group>"; };
+		5FA28FC7234B6024006215D9 /* UITextField+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Maker.h"; sourceTree = "<group>"; };
+		5FA28FC8234B6024006215D9 /* UITextField+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Maker.m"; sourceTree = "<group>"; };
+		5FA28FCA234B6486006215D9 /* UISlider+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISlider+Maker.h"; sourceTree = "<group>"; };
+		5FA28FCB234B6486006215D9 /* UISlider+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISlider+Maker.m"; sourceTree = "<group>"; };
+		5FA28FCD234B6AF9006215D9 /* UISwitch+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Maker.h"; sourceTree = "<group>"; };
+		5FA28FCE234B6AF9006215D9 /* UISwitch+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Maker.m"; sourceTree = "<group>"; };
+		5FA28FD0234B6C7C006215D9 /* UISegmentedControl+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+Maker.h"; sourceTree = "<group>"; };
+		5FA28FD1234B6C7C006215D9 /* UISegmentedControl+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+Maker.m"; sourceTree = "<group>"; };
+		5FA28FD3234B6E48006215D9 /* UIPageControl+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+Maker.h"; sourceTree = "<group>"; };
+		5FA28FD4234B6E48006215D9 /* UIPageControl+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+Maker.m"; sourceTree = "<group>"; };
+		5FA28FD6234B6FE2006215D9 /* UIDatePicker+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+Maker.h"; sourceTree = "<group>"; };
+		5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+Maker.m"; sourceTree = "<group>"; };
+		5FA28FDA234B7379006215D9 /* WKWebView+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Maker.h"; sourceTree = "<group>"; };
+		5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Maker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +161,7 @@
 		5F1EF53A233F955F00AF50C1 /* UIViewMaker */ = {
 			isa = PBXGroup;
 			children = (
+				5FA28FD9234B7292006215D9 /* UIControlMaker */,
 				5F1EF56B233F95CF00AF50C1 /* UIScrollViewMaker */,
 				5F1EF540233F955F00AF50C1 /* UITabBar+Maker.h */,
 				5F1EF54B233F955F00AF50C1 /* UITabBar+Maker.m */,
@@ -155,6 +183,8 @@
 				5F1EF54A233F955F00AF50C1 /* UIToolbar+Maker.m */,
 				5F1EF55A233F955F00AF50C1 /* UILabel+Maker.h */,
 				5F1EF549233F955F00AF50C1 /* UILabel+Maker.m */,
+				5FA28FDA234B7379006215D9 /* WKWebView+Maker.h */,
+				5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */,
 			);
 			path = UIViewMaker;
 			sourceTree = "<group>";
@@ -196,6 +226,29 @@
 				5F1EF53A233F955F00AF50C1 /* UIViewMaker */,
 			);
 			path = NSMaker;
+			sourceTree = "<group>";
+		};
+		5FA28FD9234B7292006215D9 /* UIControlMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5FA28FC4234B57C5006215D9 /* UIControl+Maker.h */,
+				5FA28FC5234B57C5006215D9 /* UIControl+Maker.m */,
+				5FA28FC1234B5413006215D9 /* UIButton+Maker.h */,
+				5FA28FC2234B5413006215D9 /* UIButton+Maker.m */,
+				5FA28FC7234B6024006215D9 /* UITextField+Maker.h */,
+				5FA28FC8234B6024006215D9 /* UITextField+Maker.m */,
+				5FA28FCA234B6486006215D9 /* UISlider+Maker.h */,
+				5FA28FCB234B6486006215D9 /* UISlider+Maker.m */,
+				5FA28FCD234B6AF9006215D9 /* UISwitch+Maker.h */,
+				5FA28FCE234B6AF9006215D9 /* UISwitch+Maker.m */,
+				5FA28FD0234B6C7C006215D9 /* UISegmentedControl+Maker.h */,
+				5FA28FD1234B6C7C006215D9 /* UISegmentedControl+Maker.m */,
+				5FA28FD3234B6E48006215D9 /* UIPageControl+Maker.h */,
+				5FA28FD4234B6E48006215D9 /* UIPageControl+Maker.m */,
+				5FA28FD6234B6FE2006215D9 /* UIDatePicker+Maker.h */,
+				5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */,
+			);
+			path = UIControlMaker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,26 +321,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA28FD8234B6FE2006215D9 /* UIDatePicker+Maker.m in Sources */,
 				5F1EF568233F955F00AF50C1 /* UIActivityIndicatorView+Maker.m in Sources */,
 				5F1EF563233F955F00AF50C1 /* UIToolbar+Maker.m in Sources */,
 				5F1EF566233F955F00AF50C1 /* UIPickerView+Maker.m in Sources */,
 				5F1EF527233F952300AF50C1 /* ViewController.m in Sources */,
 				5F1EF564233F955F00AF50C1 /* UITabBar+Maker.m in Sources */,
 				5F1EF573233F9EC800AF50C1 /* NSObject+Maker.m in Sources */,
+				5FA28FC6234B57C5006215D9 /* UIControl+Maker.m in Sources */,
 				5F1EF569233F955F00AF50C1 /* UICollectionView+Maker.m in Sources */,
 				5F1EF570233F973600AF50C1 /* UITextView+Maker.m in Sources */,
+				5FA28FC3234B5413006215D9 /* UIButton+Maker.m in Sources */,
 				5F1EF55D233F955F00AF50C1 /* UITableView+Maker.m in Sources */,
+				5FA28FCC234B6486006215D9 /* UISlider+Maker.m in Sources */,
+				5FA28FD5234B6E48006215D9 /* UIPageControl+Maker.m in Sources */,
 				5F1EF561233F955F00AF50C1 /* UIWindow+Maker.m in Sources */,
 				5F1EF55E233F955F00AF50C1 /* UIScrollView+Maker.m in Sources */,
 				5F1EF521233F952300AF50C1 /* AppDelegate.m in Sources */,
+				5FA28FDC234B7379006215D9 /* WKWebView+Maker.m in Sources */,
 				5F1EF560233F955F00AF50C1 /* UINavigationBar+Maker.m in Sources */,
+				5FA28FCF234B6AF9006215D9 /* UISwitch+Maker.m in Sources */,
 				5F1EF532233F952400AF50C1 /* main.m in Sources */,
 				5F1EF56A233F955F00AF50C1 /* UICollectionReusableView+Maker.m in Sources */,
+				5FA28FD2234B6C7C006215D9 /* UISegmentedControl+Maker.m in Sources */,
 				5F1EF562233F955F00AF50C1 /* UILabel+Maker.m in Sources */,
 				5F1EF55C233F955F00AF50C1 /* UIImageView+Maker.m in Sources */,
 				5F1EF55F233F955F00AF50C1 /* UIView+Maker.m in Sources */,
 				5F1EF55B233F955F00AF50C1 /* UICollectionViewCell+Maker.m in Sources */,
 				5F1EF524233F952300AF50C1 /* SceneDelegate.m in Sources */,
+				5FA28FC9234B6024006215D9 /* UITextField+Maker.m in Sources */,
 				5F1EF565233F955F00AF50C1 /* UITableViewCell+Maker.m in Sources */,
 				5F1EF567233F955F00AF50C1 /* UIProgressView+Maker.m in Sources */,
 			);
