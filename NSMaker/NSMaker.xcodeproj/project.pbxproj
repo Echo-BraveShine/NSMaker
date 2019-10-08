@@ -41,6 +41,7 @@
 		5FA28FD5234B6E48006215D9 /* UIPageControl+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD4234B6E48006215D9 /* UIPageControl+Maker.m */; };
 		5FA28FD8234B6FE2006215D9 /* UIDatePicker+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */; };
 		5FA28FDC234B7379006215D9 /* WKWebView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */; };
+		5FEC3EFD234C5F90001E712B /* UISearchBar+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC3EFC234C5F90001E712B /* UISearchBar+Maker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +111,8 @@
 		5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+Maker.m"; sourceTree = "<group>"; };
 		5FA28FDA234B7379006215D9 /* WKWebView+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Maker.h"; sourceTree = "<group>"; };
 		5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Maker.m"; sourceTree = "<group>"; };
+		5FEC3EFB234C5F90001E712B /* UISearchBar+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Maker.h"; sourceTree = "<group>"; };
+		5FEC3EFC234C5F90001E712B /* UISearchBar+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Maker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 				5F1EF549233F955F00AF50C1 /* UILabel+Maker.m */,
 				5FA28FDA234B7379006215D9 /* WKWebView+Maker.h */,
 				5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */,
+				5FEC3EFB234C5F90001E712B /* UISearchBar+Maker.h */,
+				5FEC3EFC234C5F90001E712B /* UISearchBar+Maker.m */,
 			);
 			path = UIViewMaker;
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 				5F1EF55E233F955F00AF50C1 /* UIScrollView+Maker.m in Sources */,
 				5F1EF521233F952300AF50C1 /* AppDelegate.m in Sources */,
 				5FA28FDC234B7379006215D9 /* WKWebView+Maker.m in Sources */,
+				5FEC3EFD234C5F90001E712B /* UISearchBar+Maker.m in Sources */,
 				5F1EF560233F955F00AF50C1 /* UINavigationBar+Maker.m in Sources */,
 				5FA28FCF234B6AF9006215D9 /* UISwitch+Maker.m in Sources */,
 				5F1EF532233F952400AF50C1 /* main.m in Sources */,

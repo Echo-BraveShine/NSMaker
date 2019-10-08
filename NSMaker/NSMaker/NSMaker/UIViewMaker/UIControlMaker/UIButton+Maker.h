@@ -6,7 +6,6 @@
 //  Copyright © 2019 BraveShine. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "UIControl+Maker.h"
 NS_ASSUME_NONNULL_BEGIN
 

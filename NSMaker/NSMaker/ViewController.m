@@ -18,7 +18,8 @@
 #import "UIScrollView+Maker.h"
 #import "UITableView+Maker.h"
 #import "UITextView+Maker.h"
-
+#import "UISlider+Maker.h"
+#import "UISearchBar+Maker.h"
 @interface ViewController ()
 
 @end
@@ -28,8 +29,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
-            
      UIView *v1 = UIView.make.frame(CGRectMake(0, 100, 100, 100)).backgroundColor([UIColor blueColor]).object;
         UIView *v2 = UIView.make.frame(CGRectMake(0, 200, 100, 100)).backgroundColor([UIColor grayColor]).object;
 
@@ -50,8 +49,6 @@
         UIView.make.frame(self.view.bounds).superview(self.view).backgroundColor([UIColor whiteColor]).subviews(@[v1,v2,v3,v4,v5,v6,v7,v8,v9]);
         
     //
-        
-        
         v1.make.backgroundColor([UIColor yellowColor]);
     
     // Do any additional setup after loading the view.
