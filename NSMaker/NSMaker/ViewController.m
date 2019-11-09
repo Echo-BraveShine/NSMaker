@@ -7,19 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSObject+Maker.h"
-#import "UIView+Maker.h"
-#import "UILabel+Maker.h"
-#import <objc/runtime.h>
-#import "UIPickerView+Maker.h"
-#import "UIProgressView+Maker.h"
-#import "UIActivityIndicatorView+Maker.h"
-#import "UIImageView+Maker.h"
-#import "UIScrollView+Maker.h"
-#import "UITableView+Maker.h"
-#import "UITextView+Maker.h"
-#import "UISlider+Maker.h"
-#import "UISearchBar+Maker.h"
+#import "NSMaker.h"
 @interface ViewController ()
 
 @end

@@ -10,9 +10,7 @@
 		5F1EF521233F952300AF50C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF520233F952300AF50C1 /* AppDelegate.m */; };
 		5F1EF524233F952300AF50C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF523233F952300AF50C1 /* SceneDelegate.m */; };
 		5F1EF527233F952300AF50C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF526233F952300AF50C1 /* ViewController.m */; };
-		5F1EF52A233F952300AF50C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1EF528233F952300AF50C1 /* Main.storyboard */; };
 		5F1EF52C233F952400AF50C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1EF52B233F952400AF50C1 /* Assets.xcassets */; };
-		5F1EF52F233F952400AF50C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1EF52D233F952400AF50C1 /* LaunchScreen.storyboard */; };
 		5F1EF532233F952400AF50C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF531233F952400AF50C1 /* main.m */; };
 		5F1EF55B233F955F00AF50C1 /* UICollectionViewCell+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF53B233F955F00AF50C1 /* UICollectionViewCell+Maker.m */; };
 		5F1EF55C233F955F00AF50C1 /* UIImageView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1EF53C233F955F00AF50C1 /* UIImageView+Maker.m */; };
@@ -41,6 +39,8 @@
 		5FA28FD5234B6E48006215D9 /* UIPageControl+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD4234B6E48006215D9 /* UIPageControl+Maker.m */; };
 		5FA28FD8234B6FE2006215D9 /* UIDatePicker+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */; };
 		5FA28FDC234B7379006215D9 /* WKWebView+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */; };
+		5FB6F0DC2376A0D8000C5468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6F0DB2376A0D8000C5468 /* LaunchScreen.storyboard */; };
+		5FB6F0DE2376A0DE000C5468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6F0DD2376A0DE000C5468 /* Main.storyboard */; };
 		5FEC3EFD234C5F90001E712B /* UISearchBar+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC3EFC234C5F90001E712B /* UISearchBar+Maker.m */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +52,7 @@
 		5F1EF523233F952300AF50C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		5F1EF525233F952300AF50C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5F1EF526233F952300AF50C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5F1EF529233F952300AF50C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F1EF52B233F952400AF50C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F1EF52E233F952400AF50C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1EF530233F952400AF50C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F1EF531233F952400AF50C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F1EF53B233F955F00AF50C1 /* UICollectionViewCell+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+Maker.m"; sourceTree = "<group>"; };
@@ -111,6 +109,9 @@
 		5FA28FD7234B6FE2006215D9 /* UIDatePicker+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+Maker.m"; sourceTree = "<group>"; };
 		5FA28FDA234B7379006215D9 /* WKWebView+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Maker.h"; sourceTree = "<group>"; };
 		5FA28FDB234B7379006215D9 /* WKWebView+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Maker.m"; sourceTree = "<group>"; };
+		5FB6F0DA237694ED000C5468 /* NSMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMaker.h; sourceTree = "<group>"; };
+		5FB6F0DB2376A0D8000C5468 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FB6F0DD2376A0DE000C5468 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5FEC3EFB234C5F90001E712B /* UISearchBar+Maker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Maker.h"; sourceTree = "<group>"; };
 		5FEC3EFC234C5F90001E712B /* UISearchBar+Maker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Maker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,13 +149,13 @@
 				5F1EF56D233F96CD00AF50C1 /* NSMaker */,
 				5F1EF51F233F952300AF50C1 /* AppDelegate.h */,
 				5F1EF520233F952300AF50C1 /* AppDelegate.m */,
+				5FB6F0DD2376A0DE000C5468 /* Main.storyboard */,
+				5FB6F0DB2376A0D8000C5468 /* LaunchScreen.storyboard */,
 				5F1EF522233F952300AF50C1 /* SceneDelegate.h */,
 				5F1EF523233F952300AF50C1 /* SceneDelegate.m */,
 				5F1EF525233F952300AF50C1 /* ViewController.h */,
 				5F1EF526233F952300AF50C1 /* ViewController.m */,
-				5F1EF528233F952300AF50C1 /* Main.storyboard */,
 				5F1EF52B233F952400AF50C1 /* Assets.xcassets */,
-				5F1EF52D233F952400AF50C1 /* LaunchScreen.storyboard */,
 				5F1EF530233F952400AF50C1 /* Info.plist */,
 				5F1EF531233F952400AF50C1 /* main.m */,
 			);
@@ -226,6 +227,7 @@
 		5F1EF56D233F96CD00AF50C1 /* NSMaker */ = {
 			isa = PBXGroup;
 			children = (
+				5FB6F0DA237694ED000C5468 /* NSMaker.h */,
 				5F1EF571233F9EC800AF50C1 /* NSObject+Maker.h */,
 				5F1EF572233F9EC800AF50C1 /* NSObject+Maker.m */,
 				5F1EF53A233F955F00AF50C1 /* UIViewMaker */,
@@ -313,9 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1EF52F233F952400AF50C1 /* LaunchScreen.storyboard in Resources */,
+				5FB6F0DE2376A0DE000C5468 /* Main.storyboard in Resources */,
 				5F1EF52C233F952400AF50C1 /* Assets.xcassets in Resources */,
-				5F1EF52A233F952300AF50C1 /* Main.storyboard in Resources */,
+				5FB6F0DC2376A0D8000C5468 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,25 +364,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5F1EF528233F952300AF50C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F1EF529233F952300AF50C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5F1EF52D233F952400AF50C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F1EF52E233F952400AF50C1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F1EF533233F952400AF50C1 /* Debug */ = {
@@ -499,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NSMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,6 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NSMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
